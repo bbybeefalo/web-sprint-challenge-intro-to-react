@@ -12,7 +12,7 @@ const App = () => {
     console.log(charData[0].name);
   })
   .catch(err => {
-    console.err(err);
+    console.log(err);
   })
   .finally(() => {
     console.log("yeehaw");
